@@ -31,5 +31,10 @@
 4. ｄ
 3. あ
 
-```aaaaaa
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
 ```
